@@ -1,5 +1,5 @@
-#ifndef LARGEST_PRODUCT_IN_A_SERIES
-#define LARGEST_PRODUCT_IN_A_SERIES
+#ifndef LARGEST_PRODUCT_IN_A_SERIES_HPP_
+#define LARGEST_PRODUCT_IN_A_SERIES_HPP_
 #include <cstdint>
 #include <vector>
 
@@ -10,4 +10,4 @@ std::uint64_t GetProduct(std::vector<int>::iterator it
   , std::size_t length);
 
 void LargestProductInASeries();
-#endif  // LARGEST_PRODUCT_IN_A_SERIES
+#endif  // LARGEST_PRODUCT_IN_A_SERIES_HPP_

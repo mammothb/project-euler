@@ -1,8 +1,8 @@
-#ifndef SUMMATION_OF_PRIMES
-#define SUMMATION_OF_PRIMES
+#ifndef SUMMATION_OF_PRIMES_HPP_
+#define SUMMATION_OF_PRIMES_HPP_
 #include <vector>
 
 std::vector<bool> PrimeSieve(int top_limit);
 
 void SummationOfPrimes();
-#endif  // SUMMATION_OF_PRIMES
+#endif  // SUMMATION_OF_PRIMES_HPP_

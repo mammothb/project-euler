@@ -9,6 +9,8 @@
 #include "PythagoreanTriplet.hpp"
 #include "SummationOfPrimes.hpp"
 #include "LargestProductInAGrid.hpp"
+#include "HighlyDivisibleTriangularNumber.hpp"
+#include "LargeSum.hpp"
 
 int main()
 {
@@ -22,6 +24,8 @@ int main()
 //  LargestProductInASeries();
 //  PythagoreanTriplet();
 //  SummationOfPrimes();
-  LargestProductInAGrid();
+//  LargestProductInAGrid();
+//  HighlyDivisibleTriangularNumber();
+  LargeSum();
   return 0;
 }

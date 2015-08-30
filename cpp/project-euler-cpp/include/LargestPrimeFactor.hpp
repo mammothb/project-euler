@@ -1,5 +1,5 @@
-#ifndef LARGEST_PRIME_FACTOR
-#define LARGEST_PRIME_FACTOR
+#ifndef LARGEST_PRIME_FACTOR_HPP_
+#define LARGEST_PRIME_FACTOR_HPP_
 #include <cmath>
 #include <iostream>
 
@@ -30,4 +30,4 @@ T FindPrimeFactor(T number)
 }
 
 void LargestPrimeFactor();
-#endif  // LARGEST_PRIME_FACTOR
+#endif  // LARGEST_PRIME_FACTOR_HPP_

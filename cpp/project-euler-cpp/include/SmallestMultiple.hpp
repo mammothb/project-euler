@@ -1,5 +1,5 @@
-#ifndef SMALLEST_MULTIPLE
-#define SMALLEST_MULTIPLE
+#ifndef SMALLEST_MULTIPLE_HPP_
+#define SMALLEST_MULTIPLE_HPP_
 #include <cmath>
 #include <iostream>
 #include <vector>
@@ -18,4 +18,4 @@ T GetGreatestCommonDivisor(T first, T second)
 int GetLowestCommonMultiple(int first, int second);
 
 void SmallestMultiple();
-#endif  // SMALLEST_MULTIPLE
+#endif  // SMALLEST_MULTIPLE_HPP_
