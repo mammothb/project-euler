@@ -6,7 +6,9 @@
 template <typename T>
 bool CheckPrime(T number)
 {
-  for (auto i = 2; i < sqrt(number) + 1; ++i) {
+  if (number == 2) return true;
+  if (number % 2 == 0) return false;
+  for (auto i = 3; i < sqrt(number) + 1; i += 2) {
     if (number % i == 0) return false;
   }  // i
   return true;

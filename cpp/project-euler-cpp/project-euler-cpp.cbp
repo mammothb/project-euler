@@ -57,12 +57,26 @@
 		<Unit filename="include/EvenFibonacci.hpp" />
 		<Unit filename="include/LargestPalindromeProduct.hpp" />
 		<Unit filename="include/LargestPrimeFactor.hpp" />
+		<Unit filename="include/LargestProductInAGrid.hpp" />
+		<Unit filename="include/LargestProductInASeries.hpp" />
 		<Unit filename="include/MultiplesOfThreeAndFive.hpp" />
+		<Unit filename="include/PythagoreanTriplet.hpp" />
+		<Unit filename="include/SmallestMultiple.hpp" />
+		<Unit filename="include/SquareSumDifference.hpp" />
+		<Unit filename="include/SummationOfPrimes.hpp" />
+		<Unit filename="include/TenThousandFirstPrime.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/EvenFibonacci.cpp" />
 		<Unit filename="src/LargestPalindromeProduct.cpp" />
 		<Unit filename="src/LargestPrimeFactor.cpp" />
+		<Unit filename="src/LargestProductInAGrid.cpp" />
+		<Unit filename="src/LargestProductInASeries.cpp" />
 		<Unit filename="src/MultiplesOfThreeAndFive.cpp" />
+		<Unit filename="src/PythagoreanTriplet.cpp" />
+		<Unit filename="src/SmallestMultiple.cpp" />
+		<Unit filename="src/SquareSumDifference.cpp" />
+		<Unit filename="src/SummationOfPrimes.cpp" />
+		<Unit filename="src/TenThousandFirstPrime.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
