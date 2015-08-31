@@ -11,6 +11,10 @@
 #include "LargestProductInAGrid.hpp"
 #include "HighlyDivisibleTriangularNumber.hpp"
 #include "LargeSum.hpp"
+#include "LongestCollatzSequence.hpp"
+#include "LatticePath.hpp"
+#include "PowerDigitSum.hpp"
+#include "NumberLetterCounts.hpp"
 
 int main()
 {
@@ -26,6 +30,10 @@ int main()
 //  SummationOfPrimes();
 //  LargestProductInAGrid();
 //  HighlyDivisibleTriangularNumber();
-  LargeSum();
+//  LargeSum();
+//  LongestCollatzSequence();
+//  LatticePath();
+//  PowerDigitSum();
+  NumberLetterCounts();
   return 0;
 }

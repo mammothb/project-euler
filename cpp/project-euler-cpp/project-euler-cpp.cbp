@@ -29,7 +29,6 @@
 					<Add option="-Wmain" />
 					<Add option="-pedantic" />
 					<Add option="-Wzero-as-null-pointer-constant" />
-					<Add option="-std=c++11" />
 					<Add option="-Wextra" />
 					<Add option="-Wall" />
 					<Add option="-g" />
@@ -41,7 +40,7 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
-					<Add option="-O2" />
+					<Add option="-O3" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -62,7 +61,10 @@
 		<Unit filename="include/LargestPrimeFactor.hpp" />
 		<Unit filename="include/LargestProductInAGrid.hpp" />
 		<Unit filename="include/LargestProductInASeries.hpp" />
+		<Unit filename="include/LatticePath.hpp" />
+		<Unit filename="include/LongestCollatzSequence.hpp" />
 		<Unit filename="include/MultiplesOfThreeAndFive.hpp" />
+		<Unit filename="include/PowerDigitSum.hpp" />
 		<Unit filename="include/PythagoreanTriplet.hpp" />
 		<Unit filename="include/SmallestMultiple.hpp" />
 		<Unit filename="include/SquareSumDifference.hpp" />
@@ -76,7 +78,10 @@
 		<Unit filename="src/LargestPrimeFactor.cpp" />
 		<Unit filename="src/LargestProductInAGrid.cpp" />
 		<Unit filename="src/LargestProductInASeries.cpp" />
+		<Unit filename="src/LatticePath.cpp" />
+		<Unit filename="src/LongestCollatzSequence.cpp" />
 		<Unit filename="src/MultiplesOfThreeAndFive.cpp" />
+		<Unit filename="src/PowerDigitSum.cpp" />
 		<Unit filename="src/PythagoreanTriplet.cpp" />
 		<Unit filename="src/SmallestMultiple.cpp" />
 		<Unit filename="src/SquareSumDifference.cpp" />
