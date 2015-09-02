@@ -63,7 +63,9 @@
 		<Unit filename="include/LargestProductInASeries.hpp" />
 		<Unit filename="include/LatticePath.hpp" />
 		<Unit filename="include/LongestCollatzSequence.hpp" />
+		<Unit filename="include/MaximumPathSum1.hpp" />
 		<Unit filename="include/MultiplesOfThreeAndFive.hpp" />
+		<Unit filename="include/NumberLetterCounts.hpp" />
 		<Unit filename="include/PowerDigitSum.hpp" />
 		<Unit filename="include/PythagoreanTriplet.hpp" />
 		<Unit filename="include/SmallestMultiple.hpp" />
@@ -80,7 +82,9 @@
 		<Unit filename="src/LargestProductInASeries.cpp" />
 		<Unit filename="src/LatticePath.cpp" />
 		<Unit filename="src/LongestCollatzSequence.cpp" />
+		<Unit filename="src/MaximumPathSum1.cpp" />
 		<Unit filename="src/MultiplesOfThreeAndFive.cpp" />
+		<Unit filename="src/NumberLetterCounts.cpp" />
 		<Unit filename="src/PowerDigitSum.cpp" />
 		<Unit filename="src/PythagoreanTriplet.cpp" />
 		<Unit filename="src/SmallestMultiple.cpp" />

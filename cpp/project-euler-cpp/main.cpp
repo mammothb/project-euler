@@ -15,6 +15,7 @@
 #include "LatticePath.hpp"
 #include "PowerDigitSum.hpp"
 #include "NumberLetterCounts.hpp"
+#include "MaximumPathSum1.hpp"
 
 int main()
 {
@@ -34,6 +35,7 @@ int main()
 //  LongestCollatzSequence();
 //  LatticePath();
 //  PowerDigitSum();
-  NumberLetterCounts();
+//  NumberLetterCounts();
+  MaximumPathSum1();
   return 0;
 }
