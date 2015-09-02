@@ -54,7 +54,9 @@
 			<Add directory="include" />
 			<Add directory="src" />
 		</Compiler>
+		<Unit filename="include/CountingSundays.hpp" />
 		<Unit filename="include/EvenFibonacci.hpp" />
+		<Unit filename="include/FactorialDigitSum.hpp" />
 		<Unit filename="include/HighlyDivisibleTriangularNumber.hpp" />
 		<Unit filename="include/LargeSum.hpp" />
 		<Unit filename="include/LargestPalindromeProduct.hpp" />
@@ -73,7 +75,9 @@
 		<Unit filename="include/SummationOfPrimes.hpp" />
 		<Unit filename="include/TenThousandFirstPrime.hpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/CountingSundays.cpp" />
 		<Unit filename="src/EvenFibonacci.cpp" />
+		<Unit filename="src/FactorialDigitSum.cpp" />
 		<Unit filename="src/HighlyDivisibleTriangularNumber.cpp" />
 		<Unit filename="src/LargeSum.cpp" />
 		<Unit filename="src/LargestPalindromeProduct.cpp" />

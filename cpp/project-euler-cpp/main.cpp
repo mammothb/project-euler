@@ -16,6 +16,8 @@
 #include "PowerDigitSum.hpp"
 #include "NumberLetterCounts.hpp"
 #include "MaximumPathSum1.hpp"
+#include "CountingSundays.hpp"
+#include "FactorialDigitSum.hpp"
 
 int main()
 {
@@ -36,6 +38,8 @@ int main()
 //  LatticePath();
 //  PowerDigitSum();
 //  NumberLetterCounts();
-  MaximumPathSum1();
+//  MaximumPathSum1();
+//  CountingSundays();
+  FactorialDigitSum();
   return 0;
 }
