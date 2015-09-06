@@ -54,6 +54,7 @@
 			<Add directory="include" />
 			<Add directory="src" />
 		</Compiler>
+		<Unit filename="include/AmicableNumbers.hpp" />
 		<Unit filename="include/CountingSundays.hpp" />
 		<Unit filename="include/EvenFibonacci.hpp" />
 		<Unit filename="include/FactorialDigitSum.hpp" />
@@ -64,9 +65,12 @@
 		<Unit filename="include/LargestProductInAGrid.hpp" />
 		<Unit filename="include/LargestProductInASeries.hpp" />
 		<Unit filename="include/LatticePath.hpp" />
+		<Unit filename="include/LexicographicPermutation.hpp" />
 		<Unit filename="include/LongestCollatzSequence.hpp" />
 		<Unit filename="include/MaximumPathSum1.hpp" />
 		<Unit filename="include/MultiplesOfThreeAndFive.hpp" />
+		<Unit filename="include/NamesScore.hpp" />
+		<Unit filename="include/NonAbundantSums.hpp" />
 		<Unit filename="include/NumberLetterCounts.hpp" />
 		<Unit filename="include/PowerDigitSum.hpp" />
 		<Unit filename="include/PythagoreanTriplet.hpp" />
@@ -75,6 +79,7 @@
 		<Unit filename="include/SummationOfPrimes.hpp" />
 		<Unit filename="include/TenThousandFirstPrime.hpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/AmicableNumbers.cpp" />
 		<Unit filename="src/CountingSundays.cpp" />
 		<Unit filename="src/EvenFibonacci.cpp" />
 		<Unit filename="src/FactorialDigitSum.cpp" />
@@ -85,9 +90,12 @@
 		<Unit filename="src/LargestProductInAGrid.cpp" />
 		<Unit filename="src/LargestProductInASeries.cpp" />
 		<Unit filename="src/LatticePath.cpp" />
+		<Unit filename="src/LexicographicPermutation.cpp" />
 		<Unit filename="src/LongestCollatzSequence.cpp" />
 		<Unit filename="src/MaximumPathSum1.cpp" />
 		<Unit filename="src/MultiplesOfThreeAndFive.cpp" />
+		<Unit filename="src/NamesScore.cpp" />
+		<Unit filename="src/NonAbundantSums.cpp" />
 		<Unit filename="src/NumberLetterCounts.cpp" />
 		<Unit filename="src/PowerDigitSum.cpp" />
 		<Unit filename="src/PythagoreanTriplet.cpp" />
