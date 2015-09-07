@@ -18,8 +18,8 @@ void ReversePosition(std::vector<int> &digits
   auto len = digits.size();
   auto sh_len = len - a;
   std::vector<int> sh_digits(sh_len, 0);
-  for (auto i = 0; i < sh_len; ++i) sh_digits[i] = digits[i + a];
-  for (auto i = 0; i < sh_len; ++i) digits[i + a] = sh_digits[sh_len - i - 1];
+  for (auto i = 0u; i < sh_len; ++i) sh_digits[i] = digits[i + a];
+  for (auto i = 0u; i < sh_len; ++i) digits[i + a] = sh_digits[sh_len - i - 1];
 }
 
 bool GetNextPermutation(std::vector<int> &digits)
