@@ -18,10 +18,12 @@
 #include "NumberLetterCounts.hpp"
 #include "PowerDigitSum.hpp"
 #include "PythagoreanTriplet.hpp"
+#include "ReciprocalCycles.hpp"
 #include "SmallestMultiple.hpp"
 #include "SquareSumDifference.hpp"
 #include "SummationOfPrimes.hpp"
 #include "TenThousandFirstPrime.hpp"
+#include "ThousandDigitFibonacciNumber.hpp"
 
 int main()
 {
@@ -37,7 +39,7 @@ int main()
 //  LargestProductInASeries();
 //  LargeSum();
 //  LatticePath();
-  LexicographicPermutation();
+//  LexicographicPermutation();
 //  LongestCollatzSequence();
 //  MaximumPathSum1();
 //  MultiplesOfThreeAndFive();
@@ -45,10 +47,12 @@ int main()
 //  NumberLetterCounts();
 //  PowerDigitSum();
 //  PythagoreanTriplet();
+  ReciprocalCycles();
 //  SmallestMultiple();
 //  SquareSumDifference();
 //  SummationOfPrimes();
 //  TenThousandFirstPrime();
+//  ThousandDigitFibonacciNumber();
 
   return 0;
 }
