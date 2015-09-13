@@ -74,10 +74,12 @@
 		<Unit filename="include/NumberLetterCounts.hpp" />
 		<Unit filename="include/PowerDigitSum.hpp" />
 		<Unit filename="include/PythagoreanTriplet.hpp" />
+		<Unit filename="include/ReciprocalCycles.hpp" />
 		<Unit filename="include/SmallestMultiple.hpp" />
 		<Unit filename="include/SquareSumDifference.hpp" />
 		<Unit filename="include/SummationOfPrimes.hpp" />
 		<Unit filename="include/TenThousandFirstPrime.hpp" />
+		<Unit filename="include/ThousandDigitFibonacciNumber.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/AmicableNumbers.cpp" />
 		<Unit filename="src/CountingSundays.cpp" />
@@ -99,10 +101,12 @@
 		<Unit filename="src/NumberLetterCounts.cpp" />
 		<Unit filename="src/PowerDigitSum.cpp" />
 		<Unit filename="src/PythagoreanTriplet.cpp" />
+		<Unit filename="src/ReciprocalCycles.cpp" />
 		<Unit filename="src/SmallestMultiple.cpp" />
 		<Unit filename="src/SquareSumDifference.cpp" />
 		<Unit filename="src/SummationOfPrimes.cpp" />
 		<Unit filename="src/TenThousandFirstPrime.cpp" />
+		<Unit filename="src/ThousandDigitFibonacciNumber.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
