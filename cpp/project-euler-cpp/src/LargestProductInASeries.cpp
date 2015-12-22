@@ -1,4 +1,5 @@
 #include "LargestProductInASeries.hpp"
+
 #include <cstdint>
 #include <iostream>
 #include <string>

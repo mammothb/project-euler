@@ -2,7 +2,9 @@
 #include "LargestPrimeFactor.hpp"
 #include <vector>
 
-int PrimeSieve(int position, int top_limit)
+int PrimeSieve(
+    int position
+  , int top_limit)
 {
   // Sieve of Eratosthenes
   auto counter = 0;
@@ -15,11 +17,11 @@ int PrimeSieve(int position, int top_limit)
     if (numbers[i]) {
       for (auto j = 2; j * i <= top_limit + 1; ++j) numbers[j * i] = false;
     }
-  }
+  }  // i
   for (auto i = 0; i < top_limit + 1; ++i) {
     if (numbers[i]) ++counter;
     if (counter == position) return i;
-  }
+  }  // i
   return 0;
 }
 

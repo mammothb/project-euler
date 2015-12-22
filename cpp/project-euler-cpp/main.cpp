@@ -47,7 +47,7 @@ int main()
 //  NumberLetterCounts();
 //  PowerDigitSum();
 //  PythagoreanTriplet();
-  ReciprocalCycles();
+//  ReciprocalCycles();
 //  SmallestMultiple();
 //  SquareSumDifference();
 //  SummationOfPrimes();

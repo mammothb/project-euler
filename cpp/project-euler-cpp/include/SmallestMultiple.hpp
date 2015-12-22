@@ -5,7 +5,9 @@
 #include <vector>
 
 template <typename T>
-T GetGreatestCommonDivisor(T first, T second)
+T GetGreatestCommonDivisor(
+    T first
+  , T second)
 {
   while (second > 0) {
     first %= second;
@@ -15,7 +17,9 @@ T GetGreatestCommonDivisor(T first, T second)
   return first;
 }
 
-int GetLowestCommonMultiple(int first, int second);
+int GetLowestCommonMultiple(
+    int first
+  , int second);
 
 void SmallestMultiple();
 #endif  // SMALLEST_MULTIPLE_HPP_

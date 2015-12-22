@@ -2,7 +2,8 @@
 #include <iostream>
 #include <vector>
 
-std::vector<bool> PrimeSieve(int top_limit)
+std::vector<bool> PrimeSieve(
+    int top_limit)
 {
   // Sieve of Eratosthenes
   // so index matches number

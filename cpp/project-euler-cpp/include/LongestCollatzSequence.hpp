@@ -3,9 +3,8 @@
 #include <cstdint>
 #include <vector>
 
-int Collatz(uint64_t n
-  , int counter
-  , std::vector<int> &tracker);
+std::vector<int> Collatz(
+    uint64_t top_limit);
 
 void LongestCollatzSequence();
 #endif // LONGEST_COLLATZ_SEQUENCE_HPP_

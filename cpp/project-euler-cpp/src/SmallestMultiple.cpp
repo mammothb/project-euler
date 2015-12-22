@@ -2,7 +2,9 @@
 #include <numeric>
 #include <vector>
 
-int GetLowestCommonMultiple(int first, int second)
+int GetLowestCommonMultiple(
+    int first
+  , int second)
 {
   // either divide by gcd first or use long long because large number
   return first / GetGreatestCommonDivisor(first, second) * second;
