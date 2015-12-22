@@ -16,6 +16,7 @@
 #include "NamesScore.hpp"
 #include "NonAbundantSums.hpp"
 #include "NumberLetterCounts.hpp"
+#include "NumbersToWords.hpp"
 #include "PowerDigitSum.hpp"
 #include "PythagoreanTriplet.hpp"
 #include "ReciprocalCycles.hpp"
@@ -45,6 +46,7 @@ int main()
 //  MultiplesOfThreeAndFive();
 //  NonAbundantSums();
 //  NumberLetterCounts();
+  NumbersToWords();
 //  PowerDigitSum();
 //  PythagoreanTriplet();
 //  ReciprocalCycles();
