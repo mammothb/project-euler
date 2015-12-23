@@ -28,7 +28,7 @@
 
 int main()
 {
-//  AmicableNumbers();
+  AmicableNumbers();
 //  CountingSundays();
 //  NamesScore();
 //  EvenFibonacci();
@@ -46,7 +46,7 @@ int main()
 //  MultiplesOfThreeAndFive();
 //  NonAbundantSums();
 //  NumberLetterCounts();
-  NumbersToWords();
+//  NumbersToWords();
 //  PowerDigitSum();
 //  PythagoreanTriplet();
 //  ReciprocalCycles();
