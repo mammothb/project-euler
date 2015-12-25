@@ -1,7 +1,20 @@
 #include "NonAbundantSums.hpp"
 #include <iostream>
 #include <vector>
-#include "AmicableNumbers.hpp"
+
+int DivisorSum(
+    int number)
+{
+  auto result = 1;
+  for (auto i = 2; i < 1 + static_cast<int>(sqrt(number)); ++i) {
+    if (number % i == 0) {
+      result += i;
+      auto quotient = number / i;
+      if (i != quotient) result += quotient;
+    }
+  }  // i
+  return result;
+}
 
 void NonAbundantSums()
 {
