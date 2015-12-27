@@ -3,47 +3,29 @@
 #include <iostream>
 #include <vector>
 
-void SwapPosition(std::vector<int> &digits
-  , int a
-  , int b)
+uint64_t Factorial(
+    int n)
 {
-  auto temp = digits[a];
-  digits[a] = digits[b];
-  digits[b] = temp;
-}
-
-void ReversePosition(std::vector<int> &digits
-  , int a)
-{
-  auto len = digits.size();
-  auto sh_len = len - a;
-  std::vector<int> sh_digits(sh_len, 0);
-  for (auto i = 0u; i < sh_len; ++i) sh_digits[i] = digits[i + a];
-  for (auto i = 0u; i < sh_len; ++i) digits[i + a] = sh_digits[sh_len - i - 1];
-}
-
-bool GetNextPermutation(std::vector<int> &digits)
-{
-  // algorithm according to https://en.wikipedia.org/wiki/Permutation#Generation
-  // _in_lexicographic_order
-  auto length = static_cast<int>(digits.size());
-  for (auto i = length - 2; i > -1; --i) {
-    if (digits[i] < digits[i + 1]) {
-      for (auto j = length - 1; j > i; --j) {
-        if (digits[j] > digits[i]) {
-          SwapPosition(digits, i, j);
-          ReversePosition(digits, i + 1);
-          return true;
-        }
-      }
-    }
-  }
-  return false;
+  if (n < 0) return 0;
+  uint64_t ans = 1;
+  for (auto i = 1; i <= n; ++i) ans *= i;
+  return ans;
 }
 
 void LexicographicPermutation()
 {
   std::vector<int> digits = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-  for (auto i = 1; i < 1000000 && GetNextPermutation(digits); ++i) {}
-  for (auto i : digits) std::cout << i;
+  std::vector<int> perm_digits;
+  auto remain = 1000000 - 1;
+  auto len = digits.size();
+  for (auto i = 1u; i < len; ++i) {
+    auto fac = Factorial(len - i);
+    auto j = static_cast<int>(remain / fac);
+    remain %= fac;
+    perm_digits.push_back(digits[j]);
+    digits.erase(begin(digits) + j);
+    if (remain == 0) break;
+  }
+  for (auto d : digits) perm_digits.push_back(d);
+  for (auto i : perm_digits) std::cout << i;
 }

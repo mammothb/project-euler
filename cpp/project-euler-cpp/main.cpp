@@ -28,7 +28,7 @@
 
 int main()
 {
-  AmicableNumbers();
+//  AmicableNumbers();
 //  CountingSundays();
 //  NamesScore();
 //  EvenFibonacci();
@@ -40,7 +40,7 @@ int main()
 //  LargestProductInASeries();
 //  LargeSum();
 //  LatticePath();
-//  LexicographicPermutation();
+  LexicographicPermutation();
 //  LongestCollatzSequence();
 //  MaximumPathSum1();
 //  MultiplesOfThreeAndFive();

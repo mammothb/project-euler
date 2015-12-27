@@ -1,4 +1,6 @@
 #include "NonAbundantSums.hpp"
+
+#include <cmath>
 #include <iostream>
 #include <vector>
 
@@ -6,7 +8,7 @@ int DivisorSum(
     int number)
 {
   auto result = 1;
-  for (auto i = 2; i < 1 + static_cast<int>(sqrt(number)); ++i) {
+  for (auto i = 2; i < 1 + static_cast<int>(std::sqrt(number)); ++i) {
     if (number % i == 0) {
       result += i;
       auto quotient = number / i;
