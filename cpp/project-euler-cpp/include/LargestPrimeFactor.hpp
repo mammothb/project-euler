@@ -7,6 +7,7 @@ template <typename T>
 bool CheckPrime(
     T number)
 {
+  if (number < 0) return false;
   if (number == 2) return true;
   if (number % 2 == 0) return false;
   for (auto i = 3; i < std::sqrt(number) + 1; i += 2) {

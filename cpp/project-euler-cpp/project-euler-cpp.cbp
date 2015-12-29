@@ -72,9 +72,11 @@
 		<Unit filename="include/NamesScore.hpp" />
 		<Unit filename="include/NonAbundantSums.hpp" />
 		<Unit filename="include/NumberLetterCounts.hpp" />
+		<Unit filename="include/NumberSpiralDiagonals.hpp" />
 		<Unit filename="include/NumbersToWords.hpp" />
 		<Unit filename="include/PowerDigitSum.hpp" />
 		<Unit filename="include/PythagoreanTriplet.hpp" />
+		<Unit filename="include/QuadraticPrimes.hpp" />
 		<Unit filename="include/ReciprocalCycles.hpp" />
 		<Unit filename="include/SmallestMultiple.hpp" />
 		<Unit filename="include/SquareSumDifference.hpp" />
@@ -100,9 +102,11 @@
 		<Unit filename="src/NamesScore.cpp" />
 		<Unit filename="src/NonAbundantSums.cpp" />
 		<Unit filename="src/NumberLetterCounts.cpp" />
+		<Unit filename="src/NumberSpiralDiagonals.cpp" />
 		<Unit filename="src/NumbersToWords.cpp" />
 		<Unit filename="src/PowerDigitSum.cpp" />
 		<Unit filename="src/PythagoreanTriplet.cpp" />
+		<Unit filename="src/QuadraticPrimes.cpp" />
 		<Unit filename="src/ReciprocalCycles.cpp" />
 		<Unit filename="src/SmallestMultiple.cpp" />
 		<Unit filename="src/SquareSumDifference.cpp" />

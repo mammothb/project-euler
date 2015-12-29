@@ -1,0 +1,6 @@
+#ifndef NUMBER_SPIRAL_DIAGONALS_HPP_
+#define NUMBER_SPIRAL_DIAGONALS_HPP_
+
+void NumberSpiralDiagonals();
+
+#endif  // NUMBER_SPIRAL_DIAGONALS_HPP_
