@@ -1,5 +1,6 @@
 #include "AmicableNumbers.hpp"
 #include "CountingSundays.hpp"
+#include "DistinctPowers.hpp"
 #include "EvenFibonacci.hpp"
 #include "FactorialDigitSum.hpp"
 #include "HighlyDivisibleTriangularNumber.hpp"
@@ -32,7 +33,7 @@ int main()
 {
 //  AmicableNumbers();
 //  CountingSundays();
-//  NamesScore();
+  DistinctPowers();
 //  EvenFibonacci();
 //  FactorialDigitSum();
 //  HighlyDivisibleTriangularNumber();
@@ -46,9 +47,10 @@ int main()
 //  LongestCollatzSequence();
 //  MaximumPathSum1();
 //  MultiplesOfThreeAndFive();
+//  NamesScore();
 //  NonAbundantSums();
 //  NumberLetterCounts();
-  NumberSpiralDiagonals();
+//  NumberSpiralDiagonals();
 //  NumbersToWords();
 //  PowerDigitSum();
 //  PythagoreanTriplet();
