@@ -55,6 +55,7 @@
 			<Add directory="src" />
 		</Compiler>
 		<Unit filename="include/AmicableNumbers.hpp" />
+		<Unit filename="include/CoinSums.hpp" />
 		<Unit filename="include/CountingSundays.hpp" />
 		<Unit filename="include/DigitFifthPowers.hpp" />
 		<Unit filename="include/EvenFibonacci.hpp" />
@@ -86,6 +87,7 @@
 		<Unit filename="include/ThousandDigitFibonacciNumber.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/AmicableNumbers.cpp" />
+		<Unit filename="src/CoinSums.cpp" />
 		<Unit filename="src/CountingSundays.cpp" />
 		<Unit filename="src/DigitFifthPowers.cpp" />
 		<Unit filename="src/EvenFibonacci.cpp" />
