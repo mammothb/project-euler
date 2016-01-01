@@ -1,5 +1,6 @@
 #include "AmicableNumbers.hpp"
 #include "CountingSundays.hpp"
+#include "DigitFifthPowers.hpp"
 #include "DistinctPowers.hpp"
 #include "EvenFibonacci.hpp"
 #include "FactorialDigitSum.hpp"
@@ -33,7 +34,8 @@ int main()
 {
 //  AmicableNumbers();
 //  CountingSundays();
-  DistinctPowers();
+  DigitFifthPowers();
+//  DistinctPowers();
 //  EvenFibonacci();
 //  FactorialDigitSum();
 //  HighlyDivisibleTriangularNumber();

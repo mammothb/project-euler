@@ -32,7 +32,7 @@ void NonAbundantSums()
       if (temp < 28124) nums[temp] = false;
     }
   }
-  for (auto i = 0; i < nums.size(); ++i) {
+  for (auto i = 0u; i < nums.size(); ++i) {
     if (nums[i]) result += i;
   }
   std::cout << result << std::endl;

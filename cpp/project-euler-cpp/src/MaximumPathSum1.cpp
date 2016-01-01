@@ -22,7 +22,7 @@ void MaximumPathSum1()
       { 4, 62, 98, 27, 23,  9, 70, 98, 73, 93, 38, 53, 60,  4, 23}};
   int length = triangle.size();
   for (auto i = length - 2; i > -1; --i) {
-    for (auto j = 0u; j < i + 1; ++j) {
+    for (auto j = 0; j < i + 1; ++j) {
       triangle[i][j] += triangle[i + 1][j] > triangle[i + 1][j + 1] ?
           triangle[i + 1][j] : triangle[i + 1][j + 1];
     }

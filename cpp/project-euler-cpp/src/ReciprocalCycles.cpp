@@ -5,7 +5,6 @@
 int RecurringDigits(int number)
 {
   auto value = 1;
-  auto counter = 0;
   auto position = 0;
   std::vector<int> remainders(number, 0);
   while(remainders[value] == 0 && value != 0) {
