@@ -21,6 +21,7 @@
 #include "NumberLetterCounts.hpp"
 #include "NumberSpiralDiagonals.hpp"
 #include "NumbersToWords.hpp"
+#include "PandigitalProducts.hpp"
 #include "PowerDigitSum.hpp"
 #include "PythagoreanTriplet.hpp"
 #include "QuadraticPrimes.hpp"
@@ -34,7 +35,7 @@
 int main()
 {
 //  AmicableNumbers();
-  CoinSums();
+//  CoinSums();
 //  CountingSundays();
 //  DigitFifthPowers();
 //  DistinctPowers();
@@ -56,6 +57,7 @@ int main()
 //  NumberLetterCounts();
 //  NumberSpiralDiagonals();
 //  NumbersToWords();
+  PandigitalProducts();
 //  PowerDigitSum();
 //  PythagoreanTriplet();
 //  QuadraticPrimes();
