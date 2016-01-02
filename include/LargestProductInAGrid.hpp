@@ -2,4 +2,5 @@
 #define LARGEST_PRODUCT_IN_A_GRID_HPP_
 
 void LargestProductInAGrid();
+
 #endif  // LARGEST_PRODUCT_IN_A_GRID_HPP_

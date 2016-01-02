@@ -1,16 +1,7 @@
 #include "FactorialDigitSum.hpp"
+
 #include <iostream>
 #include <vector>
-#include "LargestPrimeFactor.hpp"
-
-void Multiply(std::vector<int> &digits, int factor) {
-  auto carry = 0;
-  for (auto &digit : digits) {
-    carry += digit * factor;
-    digit = carry % 10;
-    carry /= 10;
-  }  // digit
-}
 
 void FactorialDigitSum() {
   auto limit = 100;

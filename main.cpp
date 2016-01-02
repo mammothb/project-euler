@@ -57,12 +57,12 @@ int main()
 //  NumberLetterCounts();
 //  NumberSpiralDiagonals();
 //  NumbersToWords();
-  PandigitalProducts();
+//  PandigitalProducts();
 //  PowerDigitSum();
 //  PythagoreanTriplet();
 //  QuadraticPrimes();
 //  ReciprocalCycles();
-//  SmallestMultiple();
+  SmallestMultiple();
 //  SquareSumDifference();
 //  SummationOfPrimes();
 //  TenThousandFirstPrime();

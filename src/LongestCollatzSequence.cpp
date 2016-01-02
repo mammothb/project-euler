@@ -10,7 +10,7 @@ std::vector<int> Collatz(
   std::vector<int> cache(number, -1);
   cache[1] = 1;
   for (auto i = 2u; i < number; ++i) {
-    int64_t seq = i;
+    uint64_t seq = i;
     auto k = 0;
     while (seq != 1 && seq >= i) {
       ++k;

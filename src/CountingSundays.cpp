@@ -2,11 +2,6 @@
 #include <iostream>
 #include <vector>
 
-int CheckLeapYear(int year)
-{
-  return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
-}
-
 void CountingSundays()
 {
   // 1st Dec 1899 is a Friday.

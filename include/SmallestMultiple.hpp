@@ -1,8 +1,5 @@
 #ifndef SMALLEST_MULTIPLE_HPP_
 #define SMALLEST_MULTIPLE_HPP_
-#include <cmath>
-#include <iostream>
-#include <vector>
 
 template <typename T>
 T GetGreatestCommonDivisor(
@@ -22,4 +19,5 @@ int GetLowestCommonMultiple(
   , int second);
 
 void SmallestMultiple();
+
 #endif  // SMALLEST_MULTIPLE_HPP_

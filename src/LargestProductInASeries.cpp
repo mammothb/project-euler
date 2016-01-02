@@ -14,10 +14,10 @@ bool ContainsZero(std::vector<int>::iterator it
   return false;
 }
 
-std::uint64_t GetProduct(std::vector<int>::iterator it
+uint64_t GetProduct(std::vector<int>::iterator it
   , std::size_t length)
 {
-  std::uint64_t ans = 1;
+  uint64_t ans = 1;
   for (auto i = 0u; i < length; ++i) ans *= *(it + i);
   return ans;
 }
@@ -25,7 +25,7 @@ std::uint64_t GetProduct(std::vector<int>::iterator it
 void LargestProductInASeries()
 {
   // use 64 bit unsigned int because huge product
-  std::uint64_t biggest = 0;
+  uint64_t biggest = 0;
   auto length = 13;
   std::string number = "7316717653133062491922511967442657474235534919493496983"
       "520312774506326239578318016984801869478851843858615607891129494954595017"
@@ -46,7 +46,7 @@ void LargestProductInASeries()
   for (auto i : number) digits.push_back(i - '0');
   for (auto i = begin(digits); i != end(digits) - (length - 1); ++i) {
     if (!ContainsZero(i, length)) {
-      std::uint64_t temp = GetProduct(i, length);
+      uint64_t temp = GetProduct(i, length);
       if (biggest < temp) biggest = temp;
     }
   }  // i

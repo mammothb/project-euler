@@ -1,4 +1,5 @@
 #include "LexicographicPermutation.hpp"
+
 #include <algorithm>
 #include <iostream>
 #include <vector>

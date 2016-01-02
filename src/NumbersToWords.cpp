@@ -38,19 +38,19 @@ void GetWord(
     GetWord(n % 1000, words);
   }
   else if (n < 1e9) {
-    unsigned long long denom = 1e6;
+    uint64_t denom = 1e6;
     GetWord(n / denom, words);
     words.push_back(million);
     GetWord(n % denom, words);
   }
   else if (n < 1e12) {
-    unsigned long long denom = 1e9;
+    uint64_t denom = 1e9;
     GetWord(n / denom, words);
     words.push_back(billion);
     GetWord(n % denom, words);
   }
   else {
-    unsigned long long denom = 1e12;
+    uint64_t denom = 1e12;
     GetWord(n / denom, words);
     words.push_back(trillion);
     GetWord(n % denom, words);
@@ -59,7 +59,7 @@ void GetWord(
 
 void NumbersToWords()
 {
-  uint64_t number = 11;
+  uint64_t number = 111111111;
 
   std::vector<std::string> words;
   GetWord(number, words);

@@ -1,5 +1,7 @@
 #include "EvenFibonacci.hpp"
 
+#include <iostream>
+
 void EvenFibonacci()
 {
   auto first = 1;

@@ -1,7 +1,7 @@
 #ifndef LEXICOGRAPHIC_PERMUTATION_HPP_
 #define LEXICOGRAPHIC_PERMUTATION_HPP_
 
-#include <stdint.h>
+#include <cstdint>
 
 uint64_t Factorial(
     int n);

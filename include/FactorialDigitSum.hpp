@@ -1,9 +1,20 @@
 #ifndef FACTORIAL_DIGIT_SUM_HPP_
 #define FACTORIAL_DIGIT_SUM_HPP_
-#include <iostream>
+
 #include <vector>
 
-void Multiply(std::vector<int> &digits, int factor);
+template <typename T>
+void Multiply(
+    std::vector<T> &digits
+  , T factor)
+{
+  auto carry = 0;
+  for (auto &digit : digits) {
+    carry += digit * factor;
+    digit = carry % 10;
+    carry /= 10;
+  }  // digit
+}
 
 void FactorialDigitSum();
 #endif  // FACTORIAL_DIGIT_SUM_HPP_

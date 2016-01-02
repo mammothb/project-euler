@@ -8,7 +8,7 @@ bool ContainsZero(
     std::vector<int>::iterator it
   , std::size_t length);
 
-std::uint64_t GetProduct(
+uint64_t GetProduct(
     std::vector<int>::iterator it
   , std::size_t length);
 

@@ -2,4 +2,5 @@
 #define LATTICE_PATH_HPP_
 
 void LatticePath();
+
 #endif // LATTICE_PATH_HPP_

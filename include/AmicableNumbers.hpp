@@ -2,4 +2,5 @@
 #define AMICABLE_NUMBERS_HPP_
 
 void AmicableNumbers();
+
 #endif // AMICABLE_NUMBERS_HPP_

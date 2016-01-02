@@ -1,18 +1,6 @@
 #include "ReciprocalCycles.hpp"
-#include <iostream>
-#include <vector>
 
-int RecurringDigits(int number)
-{
-  auto value = 1;
-  auto position = 0;
-  std::vector<int> remainders(number, 0);
-  while(remainders[value] == 0 && value != 0) {
-    remainders[value] = position++;
-    value = (10 * value) % number;
-  }
-  return value == 0 ? value : position - remainders[value];
-}
+#include <iostream>
 
 void ReciprocalCycles()
 {
@@ -24,6 +12,6 @@ void ReciprocalCycles()
       length = temp;
       number = n;
     }
-  }
+  }  // n
   std::cout << number << std::endl;
 }
